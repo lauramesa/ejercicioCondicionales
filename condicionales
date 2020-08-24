@@ -1,0 +1,49 @@
+#problemas Condicionales
+#1
+p_int= float(input("ingrese cantidad de inversion"))
+cap= float(input("ingrese el valor de la capital"))
+int= cap*p_int
+capf= cap+int
+if int>7000:
+        print(f"el valor de dinero que tendra en la cuenta sera de: {capf}")
+else:
+        print(f"gracias por sus anterioes inversiones")
+
+#2
+calif1= float(input("ingresar la primera calificacion"))
+calif2= float(input("ingresar la segunda calificacion"))
+calif3= float(input("ingresar la tercera calificacion"))
+promCal= (calif1+calif2+calif3)/3
+if promCal>= 70:
+        print(f"ALUMNO APROBADO: su promedio fue de: {promCal}")
+else:
+        print(f"ALUMNO REPROBADO: su promedio fue de: {promCal}")
+
+#3
+v_buy= float(input("ingresar el valor de la compra"))
+des= v_buy*0.20
+nApl="No Aplica al descuento"
+if v_buy>1000:
+        print(f"20% DE DESCUENTO: el valor total a pagar es de: {des} ")
+
+else:
+        print(f"{nApl}")
+
+#4
+ht= float(input("¿cuantas horas laborales realizo esta semana?"))
+hc= ht-40
+ss= ht*20+40*16
+sc= ht*16
+if ht>40:
+        print(f"tu salario sera de: {ss}")
+
+else:
+        print(f"tu salario sera de: {sc}")
+
+#5
+number1= float(input("ingresar un numero"))
+number2= float(input("ingresar otro numero"))
+if number1<number2:
+        print(f"NUMEROS DE ASCENDENTE: {number1}, {number2}")
+else:
+        print(f"NUMEROS DE ASCENDENTE: {number2}, {number1}")
